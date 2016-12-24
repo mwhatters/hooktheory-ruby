@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.homepage    = 'http://rubygems.org/gems/hooktheory'
   s.license     = 'MIT'
 
-  s.add_dependency 'json', '>= 1.8'
-  s.add_dependency 'httparty', '>= 0.14.0'
+  s.add_runtime_dependency 'json', '~> 1.8'
+  s.add_runtime_dependency 'httparty', '~> 0.14', '>= 0.14.0'
   s.required_ruby_version = '>= 2.1.6'
 end
