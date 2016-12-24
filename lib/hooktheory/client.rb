@@ -43,7 +43,7 @@ module HookTheory
         password: @password
       })
 
-      raise InvalidUsernameOrPassword if auth["activkey"].nil?
+      raise InvalidUsernameOrPassword.new("Must provide valid credentials") if auth["activkey"].nil?
       @headers.merge!("Authorization" => "Bearer #{auth["activkey"]}")
     end
 
