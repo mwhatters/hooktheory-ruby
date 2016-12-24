@@ -1,0 +1,7 @@
+doc
+*.gem
+.bundle
+Gemfile.lock
+.rakeTasks
+.yardoc
+*.swp
