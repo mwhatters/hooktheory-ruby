@@ -54,7 +54,7 @@ module HookTheory
           query: request_params
         ).parsed_response
       rescue Exception => e
-        raise InvalidRequest.new(e.message)
+        []
       end
     end
 
@@ -66,7 +66,7 @@ module HookTheory
           body: body.to_json
         ).parsed_response
       rescue Exception => e
-        raise InvalidRequest.new(e.message)
+        []
       end
     end
   end
