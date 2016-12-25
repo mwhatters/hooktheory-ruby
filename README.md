@@ -51,3 +51,12 @@ hooktheory.nodes(progression: [4, 1, 2])
 hooktheory.nodes(progression: [4, 1, 2, 30838])
 => []
 ```
+
+## Rate Limiting
+
+Per the documentation, "The Hooktheory API limits requests to 10 every 10 seconds"
+
+## TODO
+
++ Include rate limiting details in the client object
++ Throttled "fetch all songs" option for easy paging
