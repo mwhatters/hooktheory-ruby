@@ -6,7 +6,7 @@ See the [original API documentation](https://www.hooktheory.com/api/trends/docs)
 ## Installation
 
 ```
-gem install intercom
+gem install hooktheory
 ```
 
 With bundler:
